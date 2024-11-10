@@ -1,0 +1,119 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+/* Container Styling */
+.assistant {
+    width: 350px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header */
+.assistant h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Chat Log Styling */
+#chatLog {
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: #f0f0f5;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Chat Messages */
+#chatLog div {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    max-width: 90%;
+}
+
+#chatLog .user-message {
+    background-color: #e1f5fe;
+    color: #0277bd;
+    text-align: right;
+    float: right;
+}
+
+#chatLog .assistant-message {
+    background-color: #ffebee;
+    color: #c62828;
+    text-align: left;
+    float: left;
+}
+
+/* Buttons Styling */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#recordButton {
+    background-color: #4caf50;
+}
+
+#recordButton:hover {
+    background-color: #388e3c;
+}
+
+#taskButton {
+    background-color: #0288d1;
+}
+
+#taskButton:hover {
+    background-color: #0277bd;
+}
+
+/* Task Input Styling */
+#taskInput {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* Task List Styling */
+#tasks {
+    margin-top: 15px;
+    text-align: left;
+}
+
+#tasks div {
+    background-color: #ffccbc;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    color: #d84315;
+}
